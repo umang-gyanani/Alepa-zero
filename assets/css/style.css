@@ -139,7 +139,7 @@
     width: 64px;
     height: 2px;
     left: 20.45px;
-    top: 33px;
+    top: 38px;
     background: #00EAC7;
  }
 
@@ -148,8 +148,8 @@
     content: '';
     width: 64px;
     height: 2px;
-    left: 63.83px;
-    top: 34px;
+    left: 51.83px;
+    top: 38px;
     background: #00EAC7;
  }
 
@@ -159,7 +159,7 @@
     width: 64px;
     height: 2px;
     left: 2.03px;
-    top: 34px;
+    top: 38px;
 
     background: #00EAC7;
 
@@ -171,7 +171,7 @@
     width: 64px;
     height: 2px;
     left: 36.45px;
-    top: 33px;
+    top: 38px;
 
     background: #00EAC7;
  }
@@ -391,6 +391,7 @@
     border-width: 1px 1px 2px 1px;
     border-style: solid;
     border-color: #1B2B38;
+    cursor: pointer;
 
 
 
@@ -407,7 +408,8 @@
  }
 
  .wallet_buttun {
-    width: 125px;
+   cursor: pointer;
+    width: 128px;
     height: 48px;
     background: #0F3034;
     border-radius: 48px 0px 0px 48px;
@@ -444,7 +446,7 @@
  }
 
  .bg_gradient {
-    background: radial-gradient(50% 50% at 50% 50%, #182733 0%, #14202A 100%)
+    background: radial-gradient(50% 50% at 50% 50%, #182733 0%, #14202A 282%)
  }
 
  
@@ -508,7 +510,9 @@
  .input_box {
     border: none;
     outline: none;
-    background: none;
+    background: #111B24;
+    color: #BCCBD6;
+
  }
 
  .Subscribe_btn {
@@ -519,7 +523,7 @@
  }
 
  .box {
-    border-radius: 2px 48px 48px 2px;
+    border-radius: 5px 48px 48px 5px;
     ;
     background-color: #111B24;
     border: 1px solid #0F3034;
@@ -555,6 +559,7 @@ footer ul li {
     border: 1px solid #1B2B38;
     border-radius: 2px
  }
+ 
 
 .footer_left{
    border-left: 3px solid #00EAC7;

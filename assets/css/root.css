@@ -6,7 +6,7 @@
     --fs-xll: 32px;
     --fs-ll: 34px;
     --fs-xxl: 23px;
-    --fs-xl: 22px;
+    --fs-xl: 21px;
     --fs-xlg: 20px;
     --fs-mlg: 18px;
     --fs-lg: 16px;
@@ -44,7 +44,7 @@
     font-size: var(--fs-xlg);
 }
 
-.fs_22 {
+.fs_21 {
     font-size: var(--fs-xl);
 }
 
