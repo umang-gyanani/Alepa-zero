@@ -45,6 +45,9 @@
     border-radius: 48px;
     padding: 10px 28px;
  }
+ .nav_btn:hover{
+   box-shadow: #00CCAB !important;
+ }
 
  .h-100vh {
     height: 100vh;
@@ -115,6 +118,7 @@
     padding: 14px;
     color: #00CCAB;
     border: 2px solid #0F3034;
+    transition: all .2s linear;
 
  }
 
@@ -317,6 +321,7 @@
     border-radius: 48px;
     padding: 16px 25px;
     border: 2px solid #0F3034;
+   transition: all .2s linear;
 
  }
  .Explore_btn:hover{
@@ -341,6 +346,7 @@
     border-radius: 48px;
     padding: 16px 25px;
     border: 2px solid #0F3034;
+   transition: all .2s linear;
  }
  .Get_involved_btn:hover{
    border: 2px solid #00CCAB;
@@ -446,7 +452,8 @@
  }
 
  .bg_gradient {
-    background: radial-gradient(50% 50% at 50% 50%, #182733 0%, #14202A 282%)
+    background: radial-gradient(50% 50% at 50% 50%, #182733 0%, #14202A 282%);
+   border: 1px solid #1B2B38;
  }
 
  
@@ -558,6 +565,9 @@ footer ul li {
     height: 100%;
     border: 1px solid #1B2B38;
     border-radius: 2px
+ }
+ .footer_icon:hover{
+   transform: translateY(-5px) !important;
  }
  
 
